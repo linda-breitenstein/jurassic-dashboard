@@ -3,3 +3,27 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.dashboard-map,
+.dashboard-controls-top,
+.dashboard-stats {
+  border-bottom: dotted 1px #89d4e5;
+}
+
+h1 {
+  filter: drop-shadow(0 0 4px #89d4e5);
+  border-bottom: dotted 1px #89d4e5;
+  border-left: dotted 1px #89d4e5;
+}
+
+.action-btn {
+  color: #89d4e5;
+}
+
+.action-btn .action-icon {
+  filter: drop-shadow(0 0 4px #89d4e5);
+}
+
+.action-btn .action-icon:hover {
+  filter: drop-shadow(0 0 4px #fff);
+}
